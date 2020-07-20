@@ -8,7 +8,7 @@ function roll_dice(){
 var number_pair = [];
 function roll_twice(){
     for (i=1;i<=2;i++){
-        number_pair = number_pair.push(roll_dice());
+        number_pair.push(roll_dice());
     }
 
     document.getElementById("mydata").innerHTML=number_pair.values();
